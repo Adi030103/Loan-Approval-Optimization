@@ -79,7 +79,7 @@ accepted_2007_to_2018Q4.csv.gz
 
 
 
-## 🧮 Insights
+## Insights
 
 - **DL model:** strong ranking, moderate classification.
 - **RL policy:** directly profit-optimized, higher EPV.
@@ -88,7 +88,7 @@ accepted_2007_to_2018Q4.csv.gz
 
 
 
-## 👤 Author
+## Author
 
 **Aditya Srivastava**  
 B.E. COE — Thapar Institute of Engineering & Technology  
