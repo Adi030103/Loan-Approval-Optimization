@@ -91,6 +91,6 @@ accepted_2007_to_2018Q4.csv.gz
 ## 👤 Author
 
 **Aditya Srivastava**  
-B.Tech COE — Thapar Institute of Engineering & Technology  
+B.E. COE — Thapar Institute of Engineering & Technology  
 
 
