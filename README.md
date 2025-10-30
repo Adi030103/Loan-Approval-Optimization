@@ -1,9 +1,9 @@
-# 💰 Lending Club Default Prediction & Loan Approval Optimization
+#  Lending Club Default Prediction & Loan Approval Optimization
 **Course Project: Predictive Modeling + Offline Reinforcement Learning**
 
 ---
 
-## 🧩 Project Overview
+##  Project Overview
 
 This project builds two complementary AI systems for credit risk management using **Lending Club’s public loan dataset** (2007–2018):
 
@@ -15,31 +15,9 @@ This project builds two complementary AI systems for credit risk management usin
    - Learns a **loan approval policy** that maximizes **expected profit** directly.
    - Evaluated using **Estimated Policy Value (EPV)** — mean expected reward per applicant.
 
----
 
-## ⚙️ Environment Setup
 
-### 1. Clone / Download
-```bash
-git clone https://github.com/yourusername/lendingclub-rl.git
-cd lendingclub-rl
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Verify installation
-```python
-import torch, xgboost, sklearn, pandas
-```
-
-✅ If no errors appear, setup is complete.
-
----
-
-## 📦 Dataset
+## Dataset
 
 We used the official **Lending Club Accepted Loans** dataset:
 ```
@@ -54,7 +32,7 @@ accepted_2007_to_2018Q4.csv.gz
 
 ---
 
-## 🧠 Model 1 — Predictive Deep Learning Model
+##  Model 1 — Predictive Deep Learning Model
 
 ### **Goal:** Predict risk of default from applicant features.
 
@@ -77,7 +55,7 @@ accepted_2007_to_2018Q4.csv.gz
 
 ---
 
-## 🤖 Model 2 — Offline Reinforcement Learning Agent
+## Model 2 — Offline Reinforcement Learning Agent
 
 ### **Goal:** Learn a direct approve/deny policy to maximize profit.
 
@@ -99,20 +77,7 @@ accepted_2007_to_2018Q4.csv.gz
 | DL @ 0.95 (profit-optimal) | 3,553.4 | 100% |
 | RL (XGB-DM) | **3,494.7** | 96.9% |
 
----
 
-## 📊 Key Graphs
-
-### **1️⃣ Estimated Policy Value by Policy**
-![EPV Chart](artifacts/epv_chart.png)
-
-### **2️⃣ Approval Rate by Policy**
-![Approval Rate](artifacts/approval_chart.png)
-
-### **3️⃣ Threshold Sweep**
-![Threshold Sweep](artifacts/threshold_sweep.png)
-
----
 
 ## 🧮 Insights
 
@@ -121,38 +86,11 @@ accepted_2007_to_2018Q4.csv.gz
 - **High thresholds (≈0.9–0.95)** balance risk vs reward.
 - **Disagreements:** RL approves some high-risk/high-return loans DL rejects.
 
----
 
-## 🚀 Future Work
-
-- Add constraints (e.g., max default rate).
-- Add fees, recoveries, prepayment effects in reward.
-- Try **CQL/IQL** and **Doubly Robust** offline RL.
-- Add interpretability and fairness modules.
-
----
-
-## 📁 Folder Structure
-
-```
-├── artifacts/                # Models, outputs, charts
-├── data/                     # Lending Club dataset
-├── notebooks/                # Jupyter workflow
-├── src/                      # Code scripts
-│   ├── preprocess.py
-│   ├── train_mlp.py
-│   ├── train_rl.py
-│   └── evaluate.py
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## 👤 Author
 
-**Avinash Pratap Singh**  
-B.Tech CSE — Thapar Institute of Engineering & Technology  
-📧 avinash0308@example.com | 🌐 [LinkedIn](https://linkedin.com/in/avinash0308)
+**Aditya Srivastava**  
+B.Tech COE — Thapar Institute of Engineering & Technology  
 
----
+
